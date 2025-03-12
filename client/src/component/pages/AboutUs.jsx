@@ -1,6 +1,6 @@
 import "../css/AboutUs.css";
-import sujal from "../assets/sujalvadgama.jpg";
-import Navbar from "../components/Navbar";
+import sujal from "../assets/sujalVadgama.jpg";
+import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 
 // eslint-disable-next-line react/prop-types

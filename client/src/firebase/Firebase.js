@@ -4,13 +4,14 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGE_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_API_KEY,
+  apiKey: "AIzaSyBliKBzqOY_c3j-0Ue_d1tmHkMHIlK71yU",
+  authDomain: "uemhackathon.firebaseapp.com",
+  databaseURL: "https://uemhackathon-default-rtdb.firebaseio.com",
+  projectId: "uemhackathon",
+  storageBucket: "uemhackathon.appspot.com",
+  messagingSenderId: "650691025025",
+  appId: "1:650691025025:web:4a2db26019ecac36951580",
+  measurementId: "G-XDMFW5C4K6"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
